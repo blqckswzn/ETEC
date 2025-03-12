@@ -1,0 +1,30 @@
+# Projetos na ETEC
+
+## Sobre
+
+Este repositório contém uma coleção de projetos desenvolvidos durante meu tempo na ETEC. Cada projeto foi criado com o objetivo de aplicar os conhecimentos adquiridos nas aulas e aprimorar minhas habilidades em programação e desenvolvimento de software.
+
+## Projetos
+
+### 1. Projeto 1: Sistema de Gerenciamento de Biblioteca
+- **Descrição:** Um sistema para gerenciar o empréstimo e devolução de livros em uma biblioteca.
+- **Tecnologias Utilizadas:** Java, MySQL
+- **Funcionalidades:** Cadastro de livros, cadastro de usuários, controle de empréstimos e devoluções.
+
+### 2. Projeto 2: Aplicativo de Controle Financeiro
+- **Descrição:** Um aplicativo para ajudar os usuários a gerenciar suas finanças pessoais.
+- **Tecnologias Utilizadas:** Python, SQLite
+- **Funcionalidades:** Registro de despesas e receitas, geração de relatórios financeiros, gráficos de despesas.
+
+### 3. Projeto 3: Website de Portfólio
+- **Descrição:** Um site para exibir meus projetos e habilidades.
+- **Tecnologias Utilizadas:** HTML, CSS, JavaScript
+- **Funcionalidades:** Galeria de projetos, seção sobre mim, formulário de contato.
+
+## Como Executar os Projetos
+
+Cada projeto possui um arquivo README próprio com instruções detalhadas sobre como configurar e executar o projeto. Por favor, consulte esses arquivos para obter mais informações.
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo através do meu [email](mailto:seuemail@exemplo.com).
