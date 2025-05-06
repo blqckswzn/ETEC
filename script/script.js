@@ -19,3 +19,32 @@
       document.getElementById('footer').innerHTML = data;
     })
     .catch(error => console.error('Erro ao carregar a footer:', error));
+
+
+    /* LOGIN */
+
+        const btnLogin = document.getElementById('btn-login');
+        const btnRegister = document.getElementById('btn-register');
+        const formLogin = document.getElementById('form-login');
+        const formRegister = document.getElementById('form-register');
+        const toRegister = document.getElementById('to-register');
+        const toLogin = document.getElementById('to-login');
+
+        function showLogin() {
+            btnLogin.classList.add('active');
+            btnRegister.classList.remove('active');
+            formLogin.classList.add('active');
+            formRegister.classList.remove('active');
+        }
+        function showRegister() {
+            btnRegister.classList.add('active');
+            btnLogin.classList.remove('active');
+            formRegister.classList.add('active');
+            formLogin.classList.remove('active');
+        }
+
+        btnLogin.addEventListener('click', showLogin);
+        btnRegister.addEventListener('click', showRegister);
+        toRegister.addEventListener('click', e => { e.preventDefault(); showRegister(); });
+        toLogin.addEventListener('click', e => { e.preventDefault(); showLogin(); });
+        // Adicionando evento de submit ao formulário de login
